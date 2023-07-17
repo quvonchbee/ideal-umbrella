@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fdfcfc;
+}
+
+button:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+button {
+  cursor: pointer !important;
+}
+
+.btn:hover img {
+  transition: 0.5s;
+  height: 16px;
+  width: 100px;
+}
+
+.w1:hover {
+  transition: 0.5s;
+  transform: scale(1.01);
+  box-shadow: 0 0 10px rgb(128, 128, 128);
+  overflow: hidden;
+}
+
+nav,
+header,
+section,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .container,
+header .container,
+section .container,
+footer .container {
+  width: 1065px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  position: relative;
+  background: #f8f8f8;
+}
+nav .www {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 679px;
+  height: 679px;
+}
+nav .container {
+  margin-top: 46px;
+  justify-content: space-between;
+}
+nav .container h1 {
+  color: #272d38;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+nav .container ul {
+  z-index: 7;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 44px;
+}
+nav .container ul li {
+  list-style: none;
+  z-index: 7;
+}
+nav .container ul li a {
+  cursor: pointer;
+  z-index: 7;
+  text-decoration: none;
+  color: #272d38;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: lowercase;
+}
+nav .container ul li a:hover {
+  transition: 0.5s;
+  color: rgb(0, 34, 255);
+}
+nav .container .drop {
+  display: none;
+  margin-bottom: 30px;
+}
+
+header .container {
+  margin-top: 100px;
+}
+header .container .text h1 {
+  color: #272d38;
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: capitalize;
+  width: 540px;
+}
+header .container .text p {
+  margin-top: 25px;
+  color: #272d38;
+  width: 525px;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: capitalize;
+}
+header .container .text button {
+  margin-top: 25px;
+  width: 167px;
+  height: 48px;
+  border-radius: 8px;
+  background: #8eadd5;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27.5px;
+  text-transform: uppercase;
+}
+
+.logo4 .container {
+  margin-top: 157px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo4 .container p {
+  color: #667085;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.logo4 .container .logos {
+  margin-top: 16px;
+  border-radius: 8px;
+  background: rgb(246, 246, 246);
+  width: 915px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo4 .container .logos img {
+  cursor: pointer;
+}
+.logo4 .container .logos img:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.Branding .container {
+  margin-top: 135px;
+}
+.Branding .container .text h1 {
+  width: 435px;
+  color: #272d38;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: capitalize;
+}
+.Branding .container .text p {
+  margin-top: 25px;
+  display: block;
+  width: 392px;
+  color: #272d38;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: capitalize;
+}
+.Branding .container .text button {
+  margin-top: 45px;
+  background: transparent;
+  border: none;
+}.Custome {
+    position: relative;
+  }
+  .Custome svg {
+    position: absolute;
+    top: -600px;
+    right: 0;
+  }
+  .Custome .container {
+    margin-top: 135px;
+  }
+  .Custome .container .text h1 {
+    width: 435px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+  }
+  .Custome .container .text p {
+    margin-top: 25px;
+    display: block;
+    width: 392px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+  }
+  .Custome .container .text button {
+    margin-top: 45px;
+    background: transparent;
+    border: none;
+  }
+  
+  .testimoils .container {
+    margin-top: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .testimoils .container p {
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+    text-transform: capitalize;
+  }
+  .testimoils .container h1 {
+    margin-top: 16px;
+    width: 435px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+  }
+  .testimoils .container .w3 {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .testimoils .container .w3 .w1 {
+    cursor: pointer;
+    width: 345px;
+    height: 334px;
+    border-radius: 20px;
+    background: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .testimoils .container .w3 .w1 h4 {
+    margin-top: 8px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.5px; /* 152.778% */
+    text-transform: capitalize;
+  }
+  .testimoils .container .w3 .w1 span {
+    margin-top: 25px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+    text-transform: capitalize;
+    width: 281px;
+  }
+  
+  .beAPart .container .text h1 {
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    width: 360px;
+  }
+  .beAPart .container .text p {
+    color: #272d38;
+    width: 350px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.5px;
+  }
+  .beAPart .container .text button {
+    margin-top: 25px;
+    width: 167px;
+    height: 48px;
+    border-radius: 8px;
+    background: #8eadd5;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27.5px;
+    text-transform: uppercase;
+  }
+  
+  .beAPart .container {
+    width: 1065px;
+    height: 450px;
+    border-radius: 20px;
+    background: #f6f6f6;
+    padding: 0 90px;
+    margin: 136px 0 138px;
+  }
+  .beAPart .container h1 {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    padding-bottom: 18px;
+    background: #f6f6f6;
+    flex-direction: column !important;
+  }
+  footer span {
+    margin-top: 110px;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 16px */
+  }
+  footer .container {
+    margin-top: 105px;
+  }
+  footer .container .w1 {
+    box-shadow: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  footer .container .w1:first-child {
+    transform: translateY(-30px);
+  }
+  footer .container .w1:first-child h4 {
+    margin-bottom: 40px;
+  }
+  footer .container .w1 h4 {
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  footer .container .w1 p {
+    cursor: pointer;
+    color: #272d38;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 190%;
+    text-transform: capitalize;
+  }
+  
+  .ch {
+    display: none;
+  }@media screen and (max-width: 428px) {
+    nav,
+    header,
+    section,
+    footer {
+      width: 428px;
+    }
+    nav .container,
+    header .container,
+    section .container,
+    footer .container {
+      width: 379px;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .ggggg {
+      position: relative;
+      overflow: hidden;
+      width: 428px;
+    }
+    nav {
+      position: fixed;
+      z-index: 5;
+    }
+    nav .www {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 679px;
+      height: 679px;
+      z-index: -1;
+    }
+    nav .container {
+      margin-top: 20px;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    nav .container h1 {
+      font-size: 14px;
+    }
+    nav .container ul {
+      transition: all 1s;
+      padding-left: 20px;
+      display: block;
+      z-index: 6;
+      position: absolute;
+      transform: translateX(-120%);
+      top: 0;
+      width: 85%;
+      height: 190vh;
+      background-image: linear-gradient(90deg, rgba(11, 11, 11, 0.834) 40%, rgba(117, 118, 121, 0.753) 80%, transparent);
+    }
+    nav .container ul li {
+      margin-top: 30px;
+    }
+    nav .container ul li a {
+      font-size: 50px;
+      font-weight: 800;
+      color: #fff;
+    }
+    nav .container .drop {
+      display: block;
+      width: 24px;
+      height: 24px;
+      z-index: 5;
+    }
+    nav .container .ch {
+      display: none;
+    }
+    nav .container .ch:checked + label + ul {
+      transform: translateX(-9%);
+    }
+    nav .container .ch:checked + label svg rect:nth-child(1) {
+      display: none;
+    }
+    nav .container .ch:checked + label svg rect:nth-child(2) {
+      display: none;
+    }
+    header .container {
+      margin-top: 100px;
+      flex-direction: column;
+    }
+    header .container .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    header .container .text h1 {
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      font-size: 40px;
+      width: 378px;
+    }
+    header .container .text p {
+      margin-top: 28px;
+      width: 378px;
+      display: block;
+      text-align: center;
+      font-size: 16px;
+    }
+    header .container .img {
+      margin-top: 50px;
+    }
+    .logo4 .container .logos {
+      width: 348px;
+      height: 86px;
+    }
+    .logo4 .container .logos img {
+      width: 60px;
+      height: 23px;
+      cursor: pointer;
+    }
+    .Branding .container {
+      margin-top: 135px;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .Branding .container .text {
+      position: relative;
+    }
+    .Branding .container .text h1 {
+      width: 348px;
+      text-align: center;
+      font-size: 32px;
+    }
+    .Branding .container .text p {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 100px;
+    }
+    .Branding .container .text button {
+      position: absolute;
+      left: 180px;
+      top: 150px;
+      transform: rotate(90deg);
+      width: 20px !important;
+    }
+    .Custome {
+      position: unset;
+    }
+    .Custome svg {
+      top: 1550px;
+    }
+    .Custome .container {
+      margin-top: 135px;
+    }
+    .Custome .container .text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .Custome .container .text h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+    .Custome .container .text p {
+      font-size: 14px;
+      text-align: center;
+    }
+    .Custome .container .text button {
+      transform: rotate(90deg);
+    }
+    .testimoils .container p {
+      font-size: 12px;
+    }
+    .testimoils .container h1 {
+      font-size: 32px;
+    }
+    .testimoils .container .w3 {
+      flex-direction: column;
+    }
+    .testimoils .container .w3 .w1 {
+      margin-bottom: 40px;
+    }
+    .beAPart {
+      background: transparent;
+    }
+    .beAPart .container {
+      background: transparent;
+      width: 3px;
+      height: 334px;
+    }
+    .beAPart .container .img {
+      display: none;
+    }
+    .beAPart .container .text {
+      width: 345px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      background: #f6f6f6;
+    }
+    .beAPart .container .text h1 {
+      width: 345px;
+      font-size: 32px;
+      text-align: center;
+      width: auto;
+    }
+    .beAPart .container .text p {
